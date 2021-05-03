@@ -35,9 +35,19 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     string = string.replace(new RegExp(propToReplace, "g"), propValue);
     return string;
   }
-  var inserthomeHTML = function(){
+  /*var inserthomeHTML = function(){
     $ajaxUtils.sendGetRequest(homeHtml,function (responseText) {
     document.querySelector("#main-content").innerHTML = responseText;},false);
-  }
+  }*/
+  
+  document.addEventListener("DOMContentLoaded", function (event) {
+    $ajaxUtils.sendGetRequest(
+  homeHtml,
+  function (responseText) {
+    document.querySelector("#main-content")
+      .innerHTML = responseText;
+  },
+  false);
+});
   global.$od = od;
 })(window);
