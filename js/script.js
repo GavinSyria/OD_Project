@@ -14,7 +14,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 });
 (function(global){
   var od = {};
-  var homeHtml = "OD_Project/home.html";
+  var homeHtml = "home.html";
   // Convenience function for inserting innerHTML for 'select'
   var insertHtml = function (selector, html) {
     var targetElem = document.querySelector(selector);
@@ -36,7 +36,8 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     return string;
   }
   var inserthomeHTML = function(){
-    insertHtml("main-content",homeHtml);
+    $ajaxUtils.sendGetRequest(homeHtml,function (responseText) {
+    document.querySelector("#main-content").innerHTML = responseText;},false);
   }
   global.$od = od;
 })(window);
