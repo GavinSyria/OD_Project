@@ -1,0 +1,330 @@
+
+body
+{
+    background-color: #7F6B65;
+    
+}
+.jumbotron{
+    background-color:#F2EEE6;
+    color: #7F6B65;
+    font-family: 'Noto Serif TC',serif;
+    font-size:1.1em;
+}
+#header-nav{
+    background-color:  #ECD1C2;
+    border-radius:0;
+    border:0;
+}
+#logo-img{
+    background:url('/Users/astrid/Desktop/OD-project/images/icon.jpg') no-repeat;
+    width:150px;
+    height:150px;
+    margin: 5px 15px 10px 0;
+}
+.navbar-brand{
+    padding-top:25px;
+}
+.navbar-brand h1{
+    font-family: 'Noto Serif TC',serif;
+    color:#7F6B65;
+    font-size:2em;
+    font-weight:bold;
+    text-shadow:1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p{
+    margin-top: 15px;
+    font-size:.8em;
+    font-family: 'Noto Serif TC',serif;
+    font-weight:lighter;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    text-align: center;
+}
+#nav-list a:hover{
+    background-color: #B18279;/*石英粉色*/
+}
+#nav-list a span{
+    font-size:1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #B18279;
+}
+.navbar-header button.navbar-toggle{
+    clear:both;
+    margin-top: -40px;/*此舉是為了讓navbar的box小一點，即上方的淺棕色區域，如此一來才能夠使得button位在一個比較ok的位置*/
+}
+#collapsable-nav a{
+    font-size:1.2em;
+}
+#collapsable-nav a span{
+    font-size:1em; /*此處是為了將圖標與文字的大小調成一致，圖標將會繼承文字的大小，記得css分級裡面越specified層級就越高！*/
+}
+.content-image{
+    
+    width: 1000px;
+    height:750px;
+    margin: 5px 15px 10px 0;
+}
+#Scenario1{
+    background:url('/Users/astrid/Desktop/OD-project/images/scene1-lg.jpeg') no-repeat;
+}
+#Scenario2{
+    
+}
+#Scenario3-1{
+    background: url('../images/scene3-1-lg.png') no-repeat;
+}
+#Scenario3-2{
+    background: url('../images/scene3-2-lg.PNG') no-repeat;
+}
+#Scenario4{
+    background:url('../images/scene4-lg.PNG') no-repeat;
+}
+#Scenario5{
+    background:url("../images/scene5-lg.PNG") no-repeat;
+}
+#Scenario6{
+    background:url('../images/scene6-lg.PNG') no-repeat;
+}
+#Scenario7{
+    background:url('../images/scene7-lg.PNG') no-repeat;
+}
+#Scenario8-1{
+    background: url('../images/scene8-1-lg.PNG') no-repeat;
+}
+#Scenario8-2{
+    background: url('../images/scene8-2-lg.PNG') no-repeat;
+}
+#Scenario10{
+    background:url('../images/scene10-lg.PNG') no-repeat;
+}
+#Scenario11{
+    background:url('../images/scene11-lg.PNG') no-repeat;
+}
+#Scenario12{
+    background:url('../images/scene12-lg.PNG') no-repeat;
+}
+#Scenario13{
+    background:url('../images/scene13-lg.PNG') no-repeat;
+}
+#centering{
+    margin:auto;
+    width:200px;
+    height:50px;
+}
+#game-start{
+    width:200px;
+    height:50px;
+    border-radius: 10px;
+}
+#game-start:hover{
+    font-size:1.2em;
+    background-color: #ecdcc2;
+    text-decoration-line: none;
+}
+hr
+{
+    color:white;
+}
+/*start of footer*/
+.panel-footer
+{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top:0;
+    opacity:.8;
+    color:white;
+    text-align: center;
+}
+/*End of Footer*/
+/*Large device*/
+@media(min-width:1200px){
+    
+}
+
+/*Medium device, 確保在中等大小的顯示屏上也可以正確顯示*/
+@media(min-width:992px) and (max-width:1199px){
+    #logo-img{
+        background: url('../images/icon-medium.jpg') no-repeat;
+        width:100px;
+        height:100px;
+        margin:5px 5px 5px 0;
+    }
+    .content-image{
+        
+        width:900px;
+        height:625px;
+        margin: 5px 15px 10px 0;
+    }
+    #Scenario1{
+        background: url('../images/scene1-md.jpeg') no-repeat;
+    }
+    #Scenario3-1{
+        background:url('../images/scene3-1-md.png') no-repeat;
+    }
+    #Scenario3-2{
+        background:url('../images/scene3-2-md.PNG') no-repeat;
+    }
+    #Scenario4{
+        background:url('../images/scene4-md.PNG') no-repeat;
+    }
+    #Scenario5{
+        background: url('../images/scene5-md.PNG') no-repeat;
+    }
+    #Scenario6{
+        background:url('../images/scene6-md.PNG') no-repeat;
+    }
+    #Scenario7{
+    background: url('../images/scene7-md.PNG') no-repeat;
+    }
+    #Scenario8-1{
+    background: url('../images/scene8-1-md.PNG') no-repeat;
+    }
+    #Scenario8-2{
+    background: url('../images/scene8-2-md.PNG') no-repeat;
+    }
+    #Scenario10{
+    background:url('../images/scene10-md.PNG') no-repeat;
+    }
+    #Scenario11{
+    background:url('../images/scene11-md.PNG') no-repeat;
+    }
+    #Scenario12{
+    background:url('../images/scene12-md.PNG') no-repeat;
+    }
+    #Scenario13{
+    background:url('../images/scene13-md.PNG') no-repeat;
+    }
+}
+
+/*Small device*/
+@media(min-width:768px) and (max-width:991px){
+    .navbar-brand{
+        padding-top: 10px;
+        height:100px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size:4vw;
+    }
+    .navbar-brand p{
+        font-size:.6em;
+    }
+    .content-image{
+        
+        width:640px;
+        height:480px;
+        margin: 5px 15px 10px 0;
+    }
+    #Scenario1{
+        background:url('../images/scene1-sm.jpeg') no-repeat; 
+    }
+    #Scenario3-1{
+        background:url('../images/scene3-1-sm.png') no-repeat;
+    }
+    #Scenario3-2{
+        background:url('../images/scene3-2-sm.PNG') no-repeat;
+    }
+    #Scenario4{
+        background:url('../images/scene4-sm.PNG') no-repeat;
+    }
+    #Scenario5{
+        background: url('../images/scene5-sm.PNG') no-repeat;
+    }
+    #Scenario6{
+        background:url('../images/scene6-sm.PNG') no-repeat;
+    }
+    #Scenario7{
+    background: url('../images/scene7-sm.PNG') no-repeat;
+    }
+    #Scenario8-1{
+    background: url('../images/scene8-1-sm.PNG') no-repeat;
+    }
+    #Scenario8-2{
+    background: url('../images/scene8-2-sm.PNG') no-repeat;
+    }
+    #Scenario10{
+    background:url('../images/scene10-sm.PNG') no-repeat;
+    }
+    #Scenario11{
+    background:url('../images/scene11-sm.PNG') no-repeat;
+    }
+    #Scenario12{
+    background:url('../images/scene12-sm.PNG') no-repeat;
+    }
+    #Scenario13{
+    background:url('../images/scene13-sm.PNG') no-repeat;
+    }
+}
+
+/*Extra small device*/
+@media(max-width:767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height:80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size:4vw;
+    }
+    .navbar-brand p{
+        font-size:.6em;
+    }
+    .content-image{
+        
+        width:400px;
+        height:300px;
+        margin: 5px 15px 10px 0;
+    }
+    #Scenario1{
+        background:url('../images/scene1-xm.jpeg') no-repeat;
+    }
+    #Scenario3-1{
+        background:url('../images/scene3-1-xm.png') no-repeat;
+    }
+    #Scenario3-2{
+        background:url('../images/scene3-2-xm.PNG') no-repeat;
+    }
+    #Scenario4{
+        background:url('../images/scene4-xm.PNG') no-repeat;
+    }
+    #Scenario5{
+        background: url('../images/scene5-sm.PNG') no-repeat;
+    }
+    #Scenario6{
+        background:url('../images/scene6-xm.PNG') no-repeat;
+    }
+    #Scenario7{
+    background: url('../images/scene7-xs.PNG') no-repeat;
+    }
+    #Scenario8-1{
+    background: url('../images/scene8-1-xs.PNG') no-repeat;
+    }
+    #Scenario8-2{
+    background: url('../images/scene8-2-xs.PNG') no-repeat;
+    }
+    #Scenario10{
+    background:url('../images/scene10-xs.PNG') no-repeat;
+    }
+    #Scenario11{
+    background:url('../images/scene11-xs.PNG') no-repeat;
+    }
+    #Scenario12{
+    background:url('../images/scene12-xs.PNG') no-repeat;
+    }
+    #Scenario13{
+    background:url('../images/scene13-xs.PNG') no-repeat;
+    }
+}
