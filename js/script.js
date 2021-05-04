@@ -32,7 +32,7 @@ var showLoading = function (selector) {
   insertHtml(selector, html);
 };
 
-global.$dc = dc;
+
 function showhome() {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
@@ -40,7 +40,8 @@ function showhome() {
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
-} 
+};
+global.$dc = dc; 
 (function (global) {
 
 
