@@ -140,8 +140,9 @@ body
 #game-start{
     width:200px;
     height:50px;
-    border-radius: 20px;
+    border-radius: 25px;
     background:transparent;
+    border:#7F6B65;
 }
 #game-start:hover{
     font-size:1.2em;
