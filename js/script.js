@@ -13,6 +13,14 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     $(event.target).focus();
   });
 });
+function showhome() {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    homeHtml,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+} 
 (function (global) {
 
 var dc = {};
@@ -33,14 +41,7 @@ var showLoading = function (selector) {
   insertHtml(selector, html);
 };
 
-function showhome(){
-  showLoading("#main-content");
-  $ajaxUtils.sendGetRequest(
-    homeHtml,function(responseText){
-      document.querySelector("#main-content").innerHTML = responseText;
-    },false
-    );
-} 
+
 
 global.$dc = dc;
 
