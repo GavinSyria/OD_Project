@@ -33,12 +33,14 @@ var showLoading = function (selector) {
   insertHtml(selector, html);
 };
 
-
-document.getElementById("home").addEventListener("onclick",function(){
-  console.log("this is working");
-});
-
-
+function showhome(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    homeHtml,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+} 
 
 global.$dc = dc;
 
