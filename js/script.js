@@ -71,7 +71,7 @@ $ajaxUtils.sendGetRequest(
   false);
 });*/
 
-dc.loadhomeHtml = function{
+dc.loadhomeHtml = function () {
   showLoading("main-content");
   $ajaxUtils.sendGetRequest(homeHtml,function(responseText){
     document.querySelector("#main-content").innerHTML = responseText;
