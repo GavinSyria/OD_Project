@@ -65,6 +65,141 @@ function showscene1(){
     },false
     );
 };
+
+function showscene2(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene2,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene31(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene31,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene32(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene32,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene4(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene4,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene5(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene5,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene61(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene61,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene62(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene62,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene7(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene7,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene81(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene81,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene82(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene82,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene9(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene9,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene10(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene10,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene11(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene11,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene12(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene12,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene13(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene13,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
 global.$dc = dc; 
 (function (global) {
 
