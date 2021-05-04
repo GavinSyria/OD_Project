@@ -17,7 +17,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var dc = {};
 
 var homeHtml = "snippets/home.html";
-
+var scene1 = "snippets/scene1.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -36,11 +36,20 @@ var showLoading = function (selector) {
 function showhome() {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    homeHtml,function(responseText){
+    scene1,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
 };
+
+function showscene1(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    homeHtml,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+}
 global.$dc = dc; 
 (function (global) {
 
