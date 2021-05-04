@@ -17,7 +17,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var dc = {};
 
 var homeHtml = "snippets/home.html";
-var scene1 = "snippets/scene1.html";
+var scene1 = "snippets/Scenario1.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
