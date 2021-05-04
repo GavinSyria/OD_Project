@@ -16,7 +16,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtml = "snippets/home-snippet.html";
+var homeHtml = "snippets/home.html";
 
 
 // Convenience function for inserting innerHTML for 'select'
@@ -53,8 +53,8 @@ var showLoading = function (selector) {
   if (classes.indexOf("active") == -1) {
     classes += " active";
     document.querySelector("#navMenuButton").className = classes;
-  }*/
-};
+  }
+};*/
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
