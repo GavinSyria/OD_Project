@@ -18,6 +18,21 @@ var dc = {};
 
 var homeHtml = "snippets/home.html";
 var scene1 = "snippets/Scenario1.html";
+var scene2 = "snippets/Scenario2.html";
+var scene31 = "snippets/Scenario3-1.html";
+var scene32 = "snippets/Scenario3-2.html";
+var scene4 = "snippets/Scenario4.html";
+var scene5 = "snippets/Scenario5.html";
+var scene61 = "snippets/Scenario61.html";
+var scene62 = "snippets/Scenario62.html";
+var scene7 = "snippets/Scenario7.html";
+var scene81 = "snippets/Scenario81.html";
+var scene82 = "snippets/Scenario82.html";
+var scene9 = "snippets/Scenario9.html";
+var scene10 = "snippets/Scenario10.html";
+var scene11 = "snippets/Scenario11.html";
+var scene12 = "snippets/Scenario12.html";
+var scene13 = "snippets/Scenario13.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -49,7 +64,7 @@ function showscene1(){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
-}
+};
 global.$dc = dc; 
 (function (global) {
 
