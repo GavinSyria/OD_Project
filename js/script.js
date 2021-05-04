@@ -36,7 +36,7 @@ var showLoading = function (selector) {
 function showhome() {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    scene1,function(responseText){
+    homeHtml,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
@@ -45,7 +45,7 @@ function showhome() {
 function showscene1(){
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    homeHtml,function(responseText){
+    scene1,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
