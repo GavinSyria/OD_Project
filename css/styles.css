@@ -51,7 +51,7 @@ body
     text-align: center;
 }
 #nav-list a:hover{
-    background-color: #B18279;/*石英粉色*/
+    background-color: #B18279;
 }
 #nav-list a span{
     font-size:1.8em;
