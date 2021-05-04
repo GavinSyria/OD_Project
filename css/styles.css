@@ -76,7 +76,19 @@ body
     margin: 5px 15px 10px 0;
 }
 #Scenario1{
-    background:url('/Users/astrid/Desktop/OD-project/images/scene1-lg.jpeg') no-repeat;
+    background:url('../images/scene1-lg.jpeg') no-repeat;
+}
+#Scenario1-1{
+    background:url('../images/scene1-1-lg.PNG') no-repeat;
+}
+#Scenario1-2{
+    background:url('../images/scene1-2-lg.PNG') no-repeat;
+}
+#Scenario1-3{
+    background:url('../images/scene1-3-lg.PNG') no-repeat;
+}
+#Scenario1-4{
+    background:url('../images/scene1-4-lg.PNG') no-repeat;
 }
 #Scenario2{
     background: url('../images/scene2-lg.png') no-repeat;
@@ -174,6 +186,18 @@ hr
     #Scenario2{
     background: url('../images/scene2-md.png') no-repeat;
     }
+    #Scenario1-1{
+    background:url('../images/scene1-1-md.PNG') no-repeat;
+    }
+    #Scenario1-2{
+    background:url('../images/scene1-2-md.PNG') no-repeat;
+    }
+    #Scenario1-3{
+    background:url('../images/scene1-3-md.PNG') no-repeat;
+    }
+    #Scenario1-4{
+    background:url('../images/scene1-4-md.PNG') no-repeat;
+    }
     #Scenario3-1{
         background:url('../images/scene3-1-md.png') no-repeat;
     }
@@ -233,6 +257,18 @@ hr
     }
     #Scenario1{
         background:url('../images/scene1-sm.jpeg') no-repeat; 
+    }
+    #Scenario1-1{
+    background:url('../images/scene1-1-sm.PNG') no-repeat;
+    }   
+    #Scenario1-2{
+    background:url('../images/scene1-2-sm.PNG') no-repeat;
+    }
+    #Scenario1-3{
+    background:url('../images/scene1-3-sm.PNG') no-repeat;
+    }
+    #Scenario1-4{
+    background:url('../images/scene1-4-sm.PNG') no-repeat;
     }
     #Scenario2{
     background: url('../images/scene2-sm.png') no-repeat;
@@ -296,6 +332,18 @@ hr
     }
     #Scenario1{
         background:url('../images/scene1-xm.jpeg') no-repeat;
+    }
+    #Scenario1-1{
+    background:url('../images/scene1-1-xs.PNG') no-repeat;
+    }
+    #Scenario1-2{
+    background:url('../images/scene1-2-xs.PNG') no-repeat;
+    }
+    #Scenario1-3{
+    background:url('../images/scene1-3-xs.PNG') no-repeat;
+    }
+    #Scenario1-4{
+    background:url('../images/scene1-4-xs.PNG') no-repeat;
     }
     #Scenario2{
     background: url('../images/scene2-xs.png') no-repeat;
