@@ -18,7 +18,10 @@ var dc = {};
 
 var homeHtml = "snippets/home.html";
 var scene1 = "snippets/Scenario1.html";
-var scene1_1 = "snipepets/Scenario1-1.html";
+var scene1_1 = "snippets/Scenario1-1.html";
+var scene1_2 = "snippets/Scenario1-2.html";
+var scene1_3 = "snippets/Scenario1-3.html";
+var scene1_4 = "snippets/Scenario1-4.html";
 var scene2 = "snippets/Scenario2.html";
 var scene31 = "snippets/Scenario3-1.html";
 var scene32 = "snippets/Scenario3-2.html";
@@ -75,6 +78,34 @@ function showscene1_1(){
     },false
     );
 };
+
+function showscene1_2(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene1_2,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene1_3(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene1_3,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene1_4(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene1_4,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
 
 function showscene2(){
   showLoading("#main-content");
@@ -200,6 +231,8 @@ function showscene12(){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
+  var scene = document.getElementById("Scenario12");
+  scene.style.background = "url('../images/Scenario11-1-lg.png') no-repeat";
 };
 
 function showscene13(){
