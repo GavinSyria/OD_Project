@@ -58,7 +58,7 @@ var showLoading = function (selector) {
 };*/
 
 // On page load (before images or CSS)
-document.addEventListener("DOMContentLoaded", function (event) {
+/*document.addEventListener("DOMContentLoaded", function (event) {
 
 // On first load, show home view
 showLoading("#main-content");
@@ -69,7 +69,15 @@ $ajaxUtils.sendGetRequest(
       .innerHTML = responseText;
   },
   false);
-});
+});*/
+
+dc.loadhomeHtml = function{
+  showLoading("main-content");
+  $ajaxUtils.sendGetRequest(homeHtml,function(responseText){
+    document.querySelector("#main-content").innerHTML = responseText;
+  },
+  false);
+}
 
 // Load the menu categories view
 /*dc.loadMenuCategories = function () {
