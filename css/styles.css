@@ -16,7 +16,7 @@ body
     border:0;
 }
 #logo-img{
-    background:url('images/icon.jpg') no-repeat;
+    background:url('../images/icon.jpg') no-repeat;
     width:150px;
     height:150px;
     margin: 5px 15px 10px 0;
@@ -116,6 +116,9 @@ body
 }
 #Scenario8-2{
     background: url('../images/scene8-2-lg.PNG') no-repeat;
+}
+#Scenario9{
+    background: url('../images/scene9-lg.PNG') no-repeat;
 }
 #Scenario10{
     background:url('../images/scene10-lg.PNG') no-repeat;
@@ -222,6 +225,9 @@ hr
     #Scenario8-2{
     background: url('../images/scene8-2-md.PNG') no-repeat;
     }
+    #Scenario9{
+    background: url('../images/scene9-md.PNG') no-repeat;
+    }
     #Scenario10{
     background:url('../images/scene10-md.PNG') no-repeat;
     }
@@ -297,6 +303,9 @@ hr
     #Scenario8-2{
     background: url('../images/scene8-2-sm.PNG') no-repeat;
     }
+    #Scenario9{
+    background: url('../images/scene9-sm.PNG') no-repeat;
+    }
     #Scenario10{
     background:url('../images/scene10-sm.PNG') no-repeat;
     }
@@ -371,6 +380,9 @@ hr
     }
     #Scenario8-2{
     background: url('../images/scene8-2-xs.PNG') no-repeat;
+    }
+    #Scenario9{
+    background: url('../images/scene9-xs.PNG') no-repeat;
     }
     #Scenario10{
     background:url('../images/scene10-xs.PNG') no-repeat;
