@@ -77,7 +77,7 @@ dc.loadhomeHtml = function{
     document.querySelector("#main-content").innerHTML = responseText;
   },
   false);
-}
+};
 
 // Load the menu categories view
 /*dc.loadMenuCategories = function () {
