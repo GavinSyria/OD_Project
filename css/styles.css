@@ -79,7 +79,7 @@ body
     background:url('/Users/astrid/Desktop/OD-project/images/scene1-lg.jpeg') no-repeat;
 }
 #Scenario2{
-    
+    background: url('../images/scene2-lg.png') no-repeat;
 }
 #Scenario3-1{
     background: url('../images/scene3-1-lg.png') no-repeat;
@@ -171,6 +171,9 @@ hr
     #Scenario1{
         background: url('../images/scene1-md.jpeg') no-repeat;
     }
+    #Scenario2{
+    background: url('../images/scene2-md.png') no-repeat;
+    }
     #Scenario3-1{
         background:url('../images/scene3-1-md.png') no-repeat;
     }
@@ -231,6 +234,9 @@ hr
     #Scenario1{
         background:url('../images/scene1-sm.jpeg') no-repeat; 
     }
+    #Scenario2{
+    background: url('../images/scene2-sm.png') no-repeat;
+    }
     #Scenario3-1{
         background:url('../images/scene3-1-sm.png') no-repeat;
     }
@@ -290,6 +296,9 @@ hr
     }
     #Scenario1{
         background:url('../images/scene1-xm.jpeg') no-repeat;
+    }
+    #Scenario2{
+    background: url('../images/scene2-xs.png') no-repeat;
     }
     #Scenario3-1{
         background:url('../images/scene3-1-xm.png') no-repeat;
