@@ -17,6 +17,8 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var dc = {};
 
 var homeHtml = "snippets/home.html";
+var resources = "snippets/resources.html";
+var support = "snippets/support.html";
 var scene1 = "snippets/Scenario1.html";
 var scene1_1 = "snippets/Scenario1-1.html";
 var scene1_2 = "snippets/Scenario1-2.html";
@@ -58,6 +60,24 @@ function showhome() {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     homeHtml,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showresources() {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    resources,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showsupport() {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    support,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
