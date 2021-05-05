@@ -4,7 +4,6 @@ body
     background-color: #7F6B65;
     color: #7F6B65;
     font-family: 'Noto Serif TC',serif;
-    font-size:1.1em;
 }
 .jumbotron{
     background-color:#F2EEE6;
@@ -96,7 +95,7 @@ body
     height:50px;
     border-radius: 25px;
     background:transparent;
-    border:#7F6B65;
+    border: 1px #7F6B65;
 }
 #game-start:hover{
     font-size:1.2em;
