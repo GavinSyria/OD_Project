@@ -75,6 +75,13 @@ body
     height:750px;
     margin: 5px 15px 10px 0;
 }
+#main-content{
+    background-color: #F2EEE6;  
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #7F6B65;
+  
+}
 #Scenario1{
     background:url('../images/scene1-lg.jpeg') no-repeat;
 }
@@ -168,7 +175,10 @@ hr
 /*End of Footer*/
 /*Large device*/
 @media(min-width:1200px){
-    
+    #Scenario1{
+        background: url('../images/scene1-lg.jpeg') no-repeat;
+        height:900px;
+    }
 }
 
 /*Medium device, 確保在中等大小的顯示屏上也可以正確顯示*/
@@ -187,6 +197,7 @@ hr
     }
     #Scenario1{
         background: url('../images/scene1-md.jpeg') no-repeat;
+        height:744px;
     }
     #Scenario2{
     background: url('../images/scene2-md.png') no-repeat;
@@ -265,9 +276,11 @@ hr
     }
     #Scenario1{
         background:url('../images/scene1-sm.jpeg') no-repeat; 
+        height:576px;
     }
-    #Scenario1-1{
-    background:url('../images/scene1-1-sm.PNG') no-repeat;
+    #Scenario1{
+        background:url('../images/scene1-sm.jpeg') no-repeat; 
+        height:576px;
     }   
     #Scenario1-2{
     background:url('../images/scene1-2-sm.PNG') no-repeat;
@@ -342,7 +355,8 @@ hr
         margin: 5px 15px 10px 0;
     }
     #Scenario1{
-        background:url('../images/scene1-xm.jpeg') no-repeat;
+        background:url('../images/scene1-xs.jpeg') no-repeat;
+        height:575px;
     }
     #Scenario1-1{
     background:url('../images/scene1-1-xs.PNG') no-repeat;
