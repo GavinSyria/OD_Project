@@ -9,6 +9,8 @@ body
 .jumbotron{
     background-color:#F2EEE6;
     color: #7F6B65;
+    font-family: 'Noto Serif TC',serif;
+    font-size:1.1em;
 }
 #header-nav{
     background-color:  #ECD1C2;
