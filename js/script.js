@@ -38,8 +38,8 @@ var scene9 = "snippets/Scenario9.html";
 var scene10 = "snippets/Scenario10.html";
 var scene11 = "snippets/Scenario11.html";
 var scene12 = "snippets/Scenario12.html";
-var scene12_s = "snippets/Scenario12_swim.html";
-var scene12_d = "snippets/Scenario12_dino.html";
+var scene12_swim = "snippets/Scenario12_swim.html";
+var scene12_dino = "snippets/Scenario12_dino.html";
 var scene13 = "snippets/Scenario13.html";
 
 // Convenience function for inserting innerHTML for 'select'
@@ -258,7 +258,7 @@ function showscene12(){
 function showscene12_swim(){
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    scene12_s,function(responseText){
+    scene12_swim,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
@@ -267,7 +267,7 @@ function showscene12_swim(){
 function showscene12_dino(){
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    scene12_d,function(responseText){
+    scene12_dino,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
