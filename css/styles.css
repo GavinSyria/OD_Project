@@ -17,7 +17,7 @@ body
     border:0;
 }
 #logo-img{
-    background:url('../images/icon.jpg') no-repeat;
+    background:url('../images/icon.png') no-repeat;
     width:150px;
     height:150px;
     margin: 5px 15px 10px 0;
@@ -210,7 +210,7 @@ hr
 /*Medium device, 確保在中等大小的顯示屏上也可以正確顯示*/
 @media(min-width:992px) and (max-width:1199px){
     #logo-img{
-        background: url('../images/icon-medium.jpg') no-repeat;
+        background: url('../images/icon-medium.png') no-repeat;
         width:100px;
         height:100px;
         margin:5px 5px 5px 0;
