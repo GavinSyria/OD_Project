@@ -1,15 +1,18 @@
 
 body
 {
-    background-color: #7F6B65;
+    background-color: #7F6B65; /*色卡：咖啡與玫瑰*/
     color: #7F6B65;
-    font-family: 'Noto Serif TC',serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 24px; /*這邊使用這個大小是因為網路上有人這樣用，而且看起來也還不錯*/
+    letter-spacing: 1px;
 }
 .jumbotron{
     background-color:#F2EEE6;
     color: #7F6B65;
-    font-family: 'Noto Serif TC',serif;
+    font-family:'Noto Sans TC', sans-serif;
     font-size:1.1em;
+    line-height: 24px;
 }
 #header-nav{
     background-color:  #ECD1C2;
