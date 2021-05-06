@@ -13,6 +13,7 @@ body
     font-family:'Noto Sans TC', sans-serif;
     font-size:1.1em;
     line-height: 24px;
+    letter-spacing: 1px;
 }
 #header-nav{
     background-color:  #ECD1C2;
