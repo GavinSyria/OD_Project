@@ -193,6 +193,10 @@ hr
         background: url('../images/scene8-2-lg.PNG') no-repeat;
         height:900px;
     }
+    #Scenario9-1{
+        background: url('../images/scene9-1-lg.PNG') no-repeat;
+        height:900px;
+    }
     #Scenario9{
         background: url('../images/scene9-lg.PNG') no-repeat;
         height:900px;
@@ -291,6 +295,10 @@ hr
     }
     #Scenario8-2{
     background: url('../images/scene8-2-md.PNG') no-repeat;
+    height:744px;
+    }
+    #Scenario9-1{
+    background: url('../images/scene9-1-md.PNG') no-repeat;
     height:744px;
     }
     #Scenario9{
@@ -393,6 +401,10 @@ hr
     }
     #Scenario8-2{
     background: url('../images/scene8-2-sm.PNG') no-repeat;
+    height:576px;
+    }
+    #Scenario9-1{
+    background: url('../images/scene9-1-sm.PNG') no-repeat;
     height:576px;
     }
     #Scenario9{

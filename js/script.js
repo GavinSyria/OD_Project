@@ -34,6 +34,7 @@ var scene62 = "snippets/Scenario6-2.html";
 var scene7 = "snippets/Scenario7.html";
 var scene81 = "snippets/Scenario8-1.html";
 var scene82 = "snippets/Scenario8-2.html";
+var scene91 = "snippets/Scenario9-1.html";
 var scene9 = "snippets/Scenario9.html";
 var scene10 = "snippets/Scenario10.html";
 var scene11 = "snippets/Scenario11.html";
@@ -214,6 +215,15 @@ function showscene82(){
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     scene82,function(responseText){
+      document.querySelector("#main-content").innerHTML = responseText;
+    },false
+    );
+};
+
+function showscene9_1(){
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    scene91,function(responseText){
       document.querySelector("#main-content").innerHTML = responseText;
     },false
     );
