@@ -165,10 +165,10 @@ hr
         background: url('../images/7-lg.png') no-repeat;
         height:900px;
     }
-    /*#lazy8{
-        background: url('../images/8-lg.png') no-repeat;
+    #lazy8{
+        background: url('../images/8-lg.jpg') no-repeat;
         height:900px;
-    }*/
+    }
     #Scenario1{
         background: url('../images/scene1-lg.jpeg') no-repeat;
         height:900px;
@@ -301,10 +301,10 @@ hr
         background: url('../images/7-md.png') no-repeat;
         height:900px;
     }
-    /*#lazy8{
-        background: url('../images/8-md.png') no-repeat;
+    #lazy8{
+        background: url('../images/8-md.jpg') no-repeat;
         height:900px;
-    }*/
+    }
     #Scenario1{
         background: url('../images/scene1-md.jpeg') no-repeat;
         height:744px;
@@ -442,10 +442,10 @@ hr
         background: url('../images/7-sm.png') no-repeat;
         height:900px;
     }
-    /*#lazy8{
-        background: url('../images/8-sm.png') no-repeat;
+    #lazy8{
+        background: url('../images/8-sm.jpg') no-repeat;
         height:900px;
-    }*/
+    }
     #Scenario1{
         background:url('../images/scene1-sm.jpeg') no-repeat; 
         height:576px;
