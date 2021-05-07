@@ -169,6 +169,10 @@ hr
         background: url('../images/8-lg.jpg') no-repeat;
         height:900px;
     }
+    #lazy8_1{
+        background: url('../images/8-lg.jpg') no-repeat;
+        height:900px;
+    }
     #Scenario1{
         background: url('../images/scene1-lg.jpeg') no-repeat;
         height:900px;
@@ -275,35 +279,39 @@ hr
     }
     #lazy1{
         background: url('../images/1-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy2{
         background: url('../images/2-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy3{
         background: url('../images/3-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy4{
         background: url('../images/4-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy5{
         background: url('../images/5-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy6{
         background: url('../images/6-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy7{
         background: url('../images/7-md.png') no-repeat;
-        height:900px;
+        height:744px;
     }
     #lazy8{
         background: url('../images/8-md.jpg') no-repeat;
-        height:900px;
+        height:744px;
+    }
+    #lazy8_1{
+        background: url('../images/8-md.jpg') no-repeat;
+        height:744px;
     }
     #Scenario1{
         background: url('../images/scene1-md.jpeg') no-repeat;
@@ -416,35 +424,39 @@ hr
     }
     #lazy1{
         background: url('../images/1-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy2{
         background: url('../images/2-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy3{
         background: url('../images/3-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy4{
         background: url('../images/4-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy5{
         background: url('../images/5-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy6{
         background: url('../images/6-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy7{
         background: url('../images/7-sm.png') no-repeat;
-        height:900px;
+        height:576px;
     }
     #lazy8{
         background: url('../images/8-sm.jpg') no-repeat;
-        height:900px;
+        height:576px;
+    }
+    #lazy8_1{
+        background: url('../images/8-sm.jpg') no-repeat;
+        height:576px;
     }
     #Scenario1{
         background:url('../images/scene1-sm.jpeg') no-repeat; 
