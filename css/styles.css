@@ -87,7 +87,9 @@ body
   box-shadow: 0 0 50px #7F6B65;
   
 }
-
+#content{
+    font-size: 1.1em;
+}
 
 #centering{
     margin:auto;
